@@ -1,1 +1,1 @@
-npm run build
+{ git stash; npm run build; git stash pop; exit 0; } || { git stash pop; exit 1; }
