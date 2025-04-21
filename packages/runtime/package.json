@@ -1,0 +1,15 @@
+{
+  "name": "runtime",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "dist/runtime.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "tsc": "tsc --project tsconfig.app.json",
+    "test": "vitest run --coverage",
+    "prebuild": "npm run tsc && npm run test",
+    "build": "vite build"
+  }
+}
