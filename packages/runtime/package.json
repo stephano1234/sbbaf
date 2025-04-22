@@ -1,6 +1,6 @@
 {
   "name": "sbbaf",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "module": "dist/sbbaf.js",
   "files": [
