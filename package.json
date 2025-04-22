@@ -12,6 +12,7 @@
     "tsc:runtime": "npm run tsc -w packages/runtime",
     "test:runtime": "npm run test -w packages/runtime",
     "build:runtime": "npm run build -w packages/runtime",
+    "publish:runtime": "npm publish -w packages/runtime",
     "playground": "npx http-server ./playground/ -o .",
     "eslint": "eslint",
     "prettier": "prettier --write --ignore-unknown .",

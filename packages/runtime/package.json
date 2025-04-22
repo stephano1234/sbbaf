@@ -1,8 +1,8 @@
 {
-  "name": "runtime",
+  "name": "sbbaf",
   "version": "1.0.0",
   "type": "module",
-  "module": "dist/runtime.js",
+  "module": "dist/sbbaf.js",
   "files": [
     "dist"
   ],
