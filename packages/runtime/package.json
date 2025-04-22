@@ -10,6 +10,7 @@
     "tsc": "tsc --project tsconfig.app.json",
     "test": "vitest run --coverage",
     "prebuild": "npm run tsc && npm run test",
-    "build": "vite build"
+    "build": "vite build",
+    "prepack": "npm run build"
   }
 }

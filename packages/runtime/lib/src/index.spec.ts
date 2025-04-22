@@ -1,8 +1,7 @@
 import { expect, test } from "vitest";
-import { func1 } from ".";
+import { dummyFunction } from ".";
 
-test("anything", () => {
-  const a = 0;
-  const b = func1(a);
-  expect(b).toBe(String(a));
+test("dummy test", () => {
+  const input = 0;
+  expect(dummyFunction(input)).toBe(String(input));
 });
