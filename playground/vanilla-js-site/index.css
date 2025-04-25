@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+  margin: 2em auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+
+input {
+  margin-right: 0.5em;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+li > span {
+  margin-right: 0.5em;
+}
+
+li > span:not(.done) {
+  cursor: pointer;
+}
+
+li > span:not(.done):hover {
+  color: cadetblue;
+  text-decoration: underline;
+}
+
+li > span.done {
+  text-decoration: line-through;
+}
+
+li > input {
+  margin-right: 0.5em;
+}
+
+li > button:nth-last-of-type(2) {
+  margin-right: 0.5em;
+}
